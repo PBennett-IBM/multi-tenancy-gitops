@@ -1,4 +1,11 @@
 resources:
+- argocd/operators/ibm-cpd-platform-operator.yaml
+- argocd/operators/ibm-cpd-scheduling-operator.yaml
+- argocd/instances/ibm-cpd-instance.yaml
+- argocd/operators/ibm-foundations.yaml
+- argocd/instances/ibm-foundational-services-instance.yaml
+- argocd/operators/ibm-catalogs.yaml
+- argocd/instances/sealed-secrets.yaml
 # IBM Software
 
 ## Cloud Pak for Integration
@@ -24,8 +31,8 @@ resources:
 #- argocd/instances/ibm-process-mining-instance.yaml
 
 ## Cloud Pak for Data
-#- argocd/operators/ibm-cp4d-watson-studio-operator.yaml
-#- argocd/instances/ibm-cp4d-watson-studio-instance.yaml
+- argocd/operators/ibm-cp4d-watson-studio-operator.yaml
+- argocd/instances/ibm-cp4d-watson-studio-instance.yaml
 #- argocd/operators/ibm-cpd-platform-operator.yaml
 #- argocd/operators/ibm-cpd-scheduling-operator.yaml
 #- argocd/instances/ibm-cpd-instance.yaml
